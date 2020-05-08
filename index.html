@@ -12,7 +12,8 @@
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
+  <!-- Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
@@ -23,7 +24,6 @@
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
@@ -38,17 +38,22 @@
 <body>
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero">
+  <section class="no-copy" id="hero">
     <div class="hero-container">
-      <a href="index.html" class="hero-logo" data-aos="zoom-in"><img src="assets/img/hero-logo.png" alt=""></a>
-      <h1 data-aos="zoom-in">Welcome To Knight Studios</h1>
-      <h2 data-aos="fade-up">We are team of talanted designers making websites with Bootstrap</h2>
-      <a data-aos="fade-up" href="#about" class="btn-get-started scrollto">Get Started</a>
+      <p data-aos="fade-in" style="top: 40px; position: absolute;"><b>IEEE MEC SB PRESENTS</b></p>
+      <!-- <a href="index.html" class="hero-logo slow" data-aos="zoom-in" style="padding-top: 120px;"><img src="assets/img/hero-logo.png" alt=""></a> -->
+      <h1 class="slow" style="font-size: 15vw; padding-top: 120px;" data-aos="fade-in" data-aos-easing="ease-in-sine" data-aos-duration="1500"><b class="space">INDRIYA</b><b style="font-family: ubuntu; font-weight: lighter;"> 4.0<b/></h1>
+      <!-- <h2 class="slow" data-aos="fade-in">We are team of talanted designers making websites with Bootstrap</h2> -->
+      <a class="slower btn-get-started scrollto" href="#about" data-aos="fade-up" style="margin-top: 120px;" data-aos="fade-in"><i class="material-icons">expand_more</i></a>
     </div>
-  </section><!-- End Hero -->
-
+  </section>
+  <!-- End Hero -->
+  <!-- <div id="hero" class="row">
+    <div data-aos="fade-in" class="col-sm vh d-flex justify-content-center align-items-center slow"><h1>Indria 4.0</h1></div>
+    <div data-aos="slide-left"data-aos-duration="500" class="col-sm vh d-flex align-items-center slow" style="background: white;"><p>Ever dreamt of creating a fully automated system to do all your school work? Wanted to create a solution for effective waste disposal in your neighborhood? Or perhaps a better healthcare system to help the poor?</p><p>Well, for all such innovative minds out there,</p><p><b>IEEE MEC SB presents INDRIYA 4.0!</b></p></div>
+  </div> -->
   <!-- ======= Header ======= -->
-  <header id="header" class="d-flex align-items-center">
+  <header id="header" class="d-flex align-items-center no-copy">
     <div class="container">
 
       <!-- The main logo is shown in mobile version only. The centered nav-logo in nav menu is displayed in desktop view  -->
@@ -93,11 +98,11 @@
 
     <!-- ======= About Us Section ======= -->
     <section id="about" class="about">
-      <div class="container">
+      <!-- <div class="container">
 
         <div class="section-title" data-aos="fade-up">
-          <h2>About Us</h2>
-          <p>Magnam dolores commodi suscipit eius consequatur</p>
+          <h2>About Indriya</h2>
+          <p>INDRIYA is a State level Project Development competition for students from classes 7th to 12th. We aim to improve the students’ skill in ideation, while mentoring and guiding them along every step of the way, in order to help their innovative ideas take shape. Indriya will consist of two rounds: the first where the students are to form teams and submit abstracts on given problem statements. The second round is where the shortlisted students are to develop their projects with technical training and professional mentorship from volunteers throughout the rest of the program.</p>
         </div>
 
         <div class="row">
@@ -127,7 +132,18 @@
           </div>
         </div>
 
+      </div> -->
+    <div class="row">
+      <div data-aos="fade-right" class="col-sm-12 col-lg-4 what d-flex justify-content-center">
+        <!-- <img src="../img/trees.jpg" alt="" style="width: 100%"> -->
+        <h2 class="no-copy abouthead" style="top: 45%; position: sticky; color: white; font-weight; bolder; font-family: ubuntu; font-size: 77px;padding: 79px;">ABOUT INDRIYA</h2>
       </div>
+      <div style="padding-right: 0px; border-bottom: solid 1.5px grey;" data-aos="fade-in" class="col-sm-12 col-lg-8">
+        <div class="container">
+          <p class="aboutpara" data-aos="fade-left">INDRIYA is a State level Project Development competition for students from classes 7th to 12th. We aim to improve the students’ skill in ideation, while mentoring and guiding them along every step of the way, in order to help their innovative ideas take shape. Indriya will consist of two rounds: the first where the students are to form teams and submit abstracts on given problem statements. The second round is where the shortlisted students are to develop their projects with technical training and professional mentorship from volunteers throughout the rest of the program. </p>
+        </div>
+      </div>
+    </div>
     </section><!-- End About Us Section -->
 
     <!-- ======= Services Section ======= -->
@@ -865,7 +881,7 @@
     </div>
   </footer><!-- End Footer -->
 
-  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+  <a href="#" class="back-to-top"><i class="icofont-simple-up" style="border-radius: 50%;height: 60px;width: 60px;"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
