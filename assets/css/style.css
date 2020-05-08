@@ -485,7 +485,7 @@ section {
 }
 
 .services .icon-box p {
-  font-size: 15px;
+  font-size: 18px;
   color: #959595;
   margin-left: 60px;
 }
@@ -496,6 +496,9 @@ section {
   background-size: cover;
   min-height: 400px;
 }
+.section-title h3 {
+    font-weight: 750;
+  }
 
 /*--------------------------------------------------------------
 # Featured
@@ -1750,6 +1753,7 @@ section {
 @media (max-width: 768px){
   .aboutpara{
     text-align: justify;
+    padding: 43px;
   }
 }
 .no-copy{
