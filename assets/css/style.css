@@ -345,6 +345,7 @@ url("../img/hero-bg.jpg")
   background-attachment: scroll;
   background-size: cover;
   position: relative;
+  background-position: center center;
 }
 
 #hero .hero-container {
@@ -1830,4 +1831,7 @@ section {
 }
 .text-lighten{
   color: #bdbdbd;
+}
+.design:hover{
+  text-decoration: underline;
 }
