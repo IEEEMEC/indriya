@@ -436,7 +436,7 @@ section {
 # About Us
 --------------------------------------------------------------*/
 .about{
-  padding-top: 10px
+  padding-top: 50px
 }
 .about .image {
   padding: 20px;
@@ -468,7 +468,10 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
-
+.aboutpara{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+}
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
@@ -503,6 +506,18 @@ section {
 /*--------------------------------------------------------------
 # Featured
 --------------------------------------------------------------*/
+.featured h1 {
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.Idp {
+
+   padding-bottom: 30px; 
+  
+  font-weight: 700;
+  margin: 5px 0 10px 60px;
+}
 .featured {
   padding: 40px 0 0 0;
   background: white;
@@ -530,8 +545,9 @@ section {
 }
 
 .featured .nav-link p {
-  font-size: 14px;
+  font-size: 20px;
   margin-bottom: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .featured .nav-link.active {
@@ -575,6 +591,7 @@ section {
 
 .why-us .content {
   padding: 60px 100px 0 100px;
+  
 }
 
 .why-us .content h3 {
