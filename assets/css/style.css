@@ -345,7 +345,8 @@ url("../img/hero-bg.jpg")
   background-attachment: scroll;
   background-size: cover;
   position: relative;
-  background-position: center center;
+  background-position-x: center;
+  background-position-y: center; 
 }
 
 #hero .hero-container {
