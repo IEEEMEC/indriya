@@ -15,6 +15,12 @@
 .space{
   font-family: cf_spaceship;
 }
+.no-outline.focus{
+  outline: none;
+}
+.no-outline.active{
+  outline: none;
+}
 body {
   font-family: "Open Sans", sans-serif;
   color: #555555;
@@ -26,7 +32,7 @@ a {
 }
 
 a:hover {
-  color: #9ed49a;
+  color: #9c27b0;
   text-decoration: none;
 }
 
@@ -59,9 +65,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top i:hover {
-  background: #61b959;
+  background: #6a1b9a;
   color: #fff;
 }
+
 
 /*--------------------------------------------------------------
 # Disable AOS delay on mobile
@@ -1291,8 +1298,8 @@ section {
 }
 
 .pricing .recommended .btn-buy:hover {
-  background: #61b959;
-  border-color: #61b959;
+  background: #6a1b9a;
+  border-color: #6a1b9a;
 }
 
 .pricing .recommended-badge {
@@ -1496,7 +1503,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #61b959;
+  background: #6a1b9a;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1755,8 +1762,8 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #5ab652;
-  color: #fff;
+  background: #fff;
+  color: #9c27b0 ;
   text-decoration: none;
 }
 
