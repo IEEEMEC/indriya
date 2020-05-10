@@ -540,7 +540,7 @@ section {
 # Featured
 --------------------------------------------------------------*/
 .featured h1 {
- font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
   text-align: center;
   padding-bottom: 30px;
 }
@@ -1806,7 +1806,8 @@ section {
 }
 .aboutpara{
   text-align: left;
-  font-size: 25px;
+  font-size: 21px;
+  font-family: "Poppins", sans-serif;
 }
 @media (max-width: 768px){
   .aboutpara{
@@ -1822,6 +1823,7 @@ section {
 }
 .abouthead{
   text-align: left;
+  font-family: "Poppins", sans-serif;
 }
 @media (max-width: 768px){
   .abouthead{
@@ -1840,7 +1842,7 @@ section {
 .filter{
   -webkit-filter: brightness(100);
   filter: brightness(100);
-  transition: all 0.4s ease-in-out;
+  transition: 0.3s;
 }
 .filter:hover{
   -webkit-filter: none;
