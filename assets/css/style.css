@@ -546,10 +546,8 @@ section {
 }
 .Idp {
 
-   padding-bottom: 30px;
-
   font-weight: 700;
-  margin: 5px 0 10px 60px;
+  /* margin: 5px 0 10px 60px; */
 }
 .featured {
   padding: 40px 0 0 0;
@@ -1425,7 +1423,6 @@ border: none;
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #484848;
 }
 
 .contact .info .email, .contact .info .phone {
