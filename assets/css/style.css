@@ -252,14 +252,15 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   left: 15px;
-  z-index: 9999;
+  z-index: 100000;
   overflow-y: auto;
-  background: #fff;
+  background: rgba(33, 33, 33, 0.98) none repeat scroll 0% 0%;
   transition: ease-in-out 0.2s;
   opacity: 0;
   visibility: hidden;
   border-radius: 10px;
   padding: 10px 0;
+  /* border: solid 1px #9c27b0; */
 }
 
 .mobile-nav * {
@@ -270,8 +271,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .mobile-nav a {
   display: block;
+  color: #bdbdbd;
   position: relative;
-  color: #151515;
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
@@ -346,7 +347,7 @@ url("../img/hero-bg.jpg")
   background-size: cover;
   position: relative;
   background-position-x: center;
-  background-position-y: center; 
+  background-position-y: center;
 }
 
 #hero .hero-container {
@@ -712,7 +713,7 @@ section {
 }
 
 .why-us .accordion-list a.collapsed {
-  color: #343a40;
+  color: #181818;
 }
 
 .why-us .accordion-list a.collapsed:hover {
@@ -1835,4 +1836,13 @@ section {
 }
 .design:hover{
   text-decoration: underline;
+}
+.filter{
+  -webkit-filter: brightness(100);
+  filter: brightness(100);
+  transition: all 0.4s ease-in-out;
+}
+.filter:hover{
+  -webkit-filter: none;
+  filter: none;
 }
