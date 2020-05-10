@@ -346,7 +346,7 @@ url("../img/hero-bg.jpg")
   background-size: cover;
   position: relative;
   background-position-x: center;
-  background-position-y: center; 
+  background-position-y: center;
 }
 
 #hero .hero-container {
@@ -1378,6 +1378,18 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.bordcar{
+  background-color:#181818;
+  border-color:#bdbdbd;
+  border-radius:20px;
+}
+.row div:hover{
+  border-color:#9c27b0;
+}
+.headbord{
+border-color:#bdbdbd;
+}
+
 .contact .info {
   width: 100%;
   height: 100%;
