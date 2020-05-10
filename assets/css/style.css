@@ -23,7 +23,7 @@
 }
 body {
   font-family: "Open Sans", sans-serif;
-  color: #555555;
+  color: #959595;
   background-color: #181818;
 }
 
@@ -434,7 +434,7 @@ section {
   text-transform: uppercase;
   margin-bottom: 15px;
   padding-bottom: 0;
-  color: #bdbdbd;
+  color: #959595;
 }
 
 .section-title p {
@@ -711,7 +711,7 @@ section {
 }
 
 .why-us .accordion-list a.collapsed {
-  color: #181818;
+  color: #959595;
 }
 
 .why-us .accordion-list a.collapsed:hover {
@@ -1843,7 +1843,7 @@ border: none;
   background-color: #2c2c2c;
 }
 .text-lighten{
-  color: #bdbdbd;
+  color: #959595;
 }
 .design:hover{
   text-decoration: underline;
@@ -1856,4 +1856,14 @@ border: none;
 .filter:hover{
   -webkit-filter: none;
   filter: none;
+}
+.hovun:hover{
+  text-decoration: underline;
+}
+.specdet{
+  border-left: 2px solid #9c27b0;
+  margin-bottom: 20px;
+}
+.detbutton{
+  cursor: pointer;
 }
