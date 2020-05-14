@@ -15,6 +15,9 @@
 .space{
   font-family: cf_spaceship;
 }
+.no-outline{
+  outline: none;
+}
 .no-outline.focus{
   outline: none;
 }
